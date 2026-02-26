@@ -1,16 +1,76 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Mohamed Zayyan Variawa!</title>
-  <meta name="description" content="The best blog!"/>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <title>Mohamed Variawa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>First post!</h1>
-  <p>This is the first post in what will soon become (if it already isn't) the best blog.</p>
-  <p>Future posts will teach you about data science.</p>
 
-<div class="footer">
-  <p>Thanks for visiting!</p>
-</div>
+<header>
+    <div class="container nav-container">
+        <h1 class="logo">Mohamed Variawa</h1>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="hero">
+        <h2>Senior Data Scientist & AI Builder</h2>
+        <p>
+            I design and deploy machine learning systems that solve real business problems —
+            from predictive pricing models to computer vision pipelines and BI automation.
+        </p>
+    </section>
+
+    <section>
+        <h3>Featured Work</h3>
+
+        <div class="card">
+            <h4>Vehicle Price Prediction</h4>
+            <p>
+                End-to-end ML pipeline predicting used vehicle prices with automated retraining.
+            </p>
+            <a href="projects.html">View Details →</a>
+        </div>
+
+        <div class="card">
+            <h4>Property Price Modeling</h4>
+            <p>
+                Gradient boosting models improving valuation accuracy for online marketplace listings.
+            </p>
+            <a href="projects.html">View Details →</a>
+        </div>
+
+        <div class="card">
+            <h4>Computer Vision – Solar Detection</h4>
+            <p>
+                Satellite image model predicting number of solar panels with MAE optimisation.
+            </p>
+            <a href="projects.html">View Details →</a>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Mohamed Variawa</p>
+    </div>
+</footer>
+
+<script src="js/theme.js"></script>
 </body>
 </html>
