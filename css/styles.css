@@ -171,7 +171,7 @@ footer {
     border: none; /* Removes default border */
     height: 3px; /* Sets the line thickness */
     background-color: #ffffff; /* Changes the line color to blue */
-    width: 50%; /* Adjusts the width to 50% of the container */
+    width: 100%; /* Adjusts the width to 50% of the container */
     margin: 20px auto; /* Centers the line horizontally with top/bottom spacing */
 }
 
