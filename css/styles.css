@@ -166,6 +166,15 @@ footer {
     margin: 5rem 0 3rem 0;
 }
 
+.custom-line {
+
+    border: none; /* Removes default border */
+    height: 3px; /* Sets the line thickness */
+    background-color: #ffffff; /* Changes the line color to blue */
+    width: 50%; /* Adjusts the width to 50% of the container */
+    margin: 20px auto; /* Centers the line horizontally with top/bottom spacing */
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero-grid {
