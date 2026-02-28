@@ -4,6 +4,9 @@
     --secondary: #9a9a9a;
     --accent: #ffffff;
     --border: #1f1f1f;
+    --badge-bg: #f3f4f6;
+    --badge-border: #e5e7eb;
+    --badge-text: #111827;
 }
 
 [data-theme="light"] {
@@ -175,6 +178,12 @@ footer {
     margin: 20px auto; /* Centers the line horizontally with top/bottom spacing */
 }
 
+body.dark {
+  --badge-bg: #1f2937;
+  --badge-border: #374151;
+  --badge-text: #e5e7eb;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero-grid {
@@ -216,13 +225,18 @@ footer {
   padding: 6px 14px;
   font-size: 0.85rem;
   border-radius: 8px;
-  border: 1px solid var(--border-color, #e5e7eb);
-  background-color: var(--badge-bg, #f9fafb);
-  color: inherit;
+  border: 1px solid var(--badge-border);
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
   transition: all 0.2s ease;
 }
 
 .tech-badge:hover {
   transform: translateY(-2px);
   border-color: #999;
+}
+
+body.dark .tech-badge:hover {
+  border-color: #9ca3af;
+  background-color: #273549;
 }
