@@ -6,7 +6,7 @@
     --border: #1f1f1f;
     --badge-bg: #f3f4f6;
     --badge-border: #e5e7eb;
-    --badge-text: #111827;
+    --badge-text: #112427;
 }
 
 [data-theme="light"] {
@@ -181,7 +181,7 @@ footer {
 body.dark {
   --badge-bg: #1f2937;
   --badge-border: #374151;
-  --badge-text: #e5e7eb;
+  --badge-text: #61697a00;
 }
 
 /* Responsive */
