@@ -216,9 +216,9 @@ footer {
   padding: 6px 14px;
   font-size: 0.85rem;
   border-radius: 8px;
-  border: 1px solid var(--badge-border);
-  background-color: var(--badge-bg);
-  color: var(--badge-text);
+  border: 1px solid var(--border-color, #e5e7eb);
+  background-color: var(--badge-bg, #606b7500);
+  color: inherit;
   transition: all 0.2s ease;
 }
 
