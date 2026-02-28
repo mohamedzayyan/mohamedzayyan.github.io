@@ -6,7 +6,7 @@
     --border: #1f1f1f;
     --badge-bg: #f3f4f6;
     --badge-border: #e5e7eb;
-    --badge-text: #647e8300;
+    --badge-text: rgb(100, 126, 131)
 }
 
 [data-theme="light"] {
