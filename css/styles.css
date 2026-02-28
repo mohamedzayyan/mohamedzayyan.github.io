@@ -186,3 +186,43 @@ footer {
         font-size: 2rem;
     }
 }
+
+.tech-section {
+  margin-top: 60px;
+}
+
+.tech-section h2 {
+  margin-bottom: 30px;
+}
+
+.tech-group {
+  margin-bottom: 30px;
+}
+
+.tech-group h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  opacity: 0.8;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-badge {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #e5e7eb);
+  background-color: var(--badge-bg, #f9fafb);
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+.tech-badge:hover {
+  transform: translateY(-2px);
+  border-color: #999;
+}
